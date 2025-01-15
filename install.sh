@@ -42,8 +42,7 @@ download_verify() {
     fi
     
     print_info "下载 $file..."
-    # 添加 --quiet 参数关闭通知，只显示进度条
-    aria2c --quiet --show-console-readout=true -x 16 -s 16 "https://github.com/kde-yyds/termux-x11-plasma-image/releases/download/v1.0/$file"
+    aria2c --console-log-level=error --summary-interval=1 -x 16 -s 16 "https://github.com/kde-yyds/termux-x11-plasma-image/releases/download/v1.0/$file"
     
     if ! sha1sum -c "$file.sha1" &>/dev/null; then
         print_error "$file 下载失败，请检查 $LOG_FILE"
@@ -112,7 +111,7 @@ EOF
         sed -i 's/env LD_PRELOAD=/env -u LD_PRELOAD/g' "$TERMUX_PREFIX/home/containers/scripts/"*
     fi
     
-    print_info "安装完成！输入 plasma 并回车即可启动 termux-x11 + KDE Plasma"
+    print_info "安装完成！输入 plasma 并回车即可启动 Termux-X11 + KDE Plasma"
 }
 
 # 执行主函数
