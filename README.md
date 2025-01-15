@@ -1,5 +1,5 @@
 ## 关于本项目
-在termux-x11里流畅运行KDE Plasma 5.26
+在Termux-X11里流畅运行KDE Plasma 5.26
 ![Plasma 安装效果图](https://github.com/fywmjj/termux-plasma-installer/raw/master/images/1.jpg)
 FPS稳定60帧  
 因为KDE Plasma跑在Arch里  
@@ -34,13 +34,13 @@ sed -i 's/env LD_PRELOAD=/env -u LD_PRELOAD/g' /data/data/com.termux/files/home/
 ```
 
 ## 使用教程
-### 安装termux和termux-x11
+### 安装Termux和Termux-X11
 Termux：<https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk>  
-Termux-x11：<https://github.com/fywmjj/termux-plasma-installer/raw/master/termux-x11.apk>
+Termux-X11：<https://github.com/fywmjj/termux-plasma-installer/raw/master/termux-x11.apk>
 
 ## 其他注意事项
 1. 建议把手机的屏幕分辨率调低，保证软件渲染流畅不掉帧  
-2. 打开termux-x11，通知栏里按Preferences，把Show additional keyboard勾去掉
+2. 打开Termux-X11，通知栏里按`Preferences`，把`Show additional keyboard`勾去掉
 
 ## 安装步骤
 
