@@ -1,4 +1,4 @@
 # Don't push the unstable script
-./testing
+testing/
 # Don't push the unnecessary script
-./one-key-push.sh
+one-key-push.sh
