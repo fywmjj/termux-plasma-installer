@@ -35,8 +35,8 @@ sed -i 's/env LD_PRELOAD=/env -u LD_PRELOAD/g' /data/data/com.termux/files/home/
 
 ## 使用教程
 ### 安装termux和termux-x11
-termux：<https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk>  
-termux-x11：<https://github.com/fywmjj/termux-plasma-installer/raw/master/termux-x11.apk>
+Termux：<https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk>  
+Termux-x11：<https://github.com/fywmjj/termux-plasma-installer/raw/master/termux-x11.apk>
 
 ## 其他注意事项
 1. 建议把手机的屏幕分辨率调低，保证软件渲染流畅不掉帧  
@@ -59,4 +59,5 @@ curl -L https://github.com/fywmjj/termux-plasma-installer/raw/master/install.sh 
 - 实时进度显示：可以看到下载和解压的实时进度
 - 详细日志：安装过程的详细日志保存在 install_plasma.log 中，方便排查问题
 
+*该图是 kde-yyds 大佬的，实际脚本运行不是这样，稍后修改*
 ![Termux 输出](https://github.com/fywmjj/termux-plasma-installer/raw/master/images/2.jpg)
