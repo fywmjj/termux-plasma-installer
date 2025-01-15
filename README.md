@@ -7,7 +7,8 @@ FPS稳定60帧
 还保留了xrender混成器后端  
 所以软件渲染仍然十分丝滑流畅
 
-> [/IMPORTANT]
+> \[!IMPORTANT]
+> 
 > 本项目是[kde-yyds 大佬的脚本](https://github.com/kde-yyds/termux-x11-plasma-installer)的**改进版**，开发者只对脚本作改动，如rootfs(容器)本身出现问题请到[本页面](https://github.com/kde-yyds/termux-x11-plasma-image)提issue
 > 有**本脚本**相关问题请在这里提issue或pr
 
